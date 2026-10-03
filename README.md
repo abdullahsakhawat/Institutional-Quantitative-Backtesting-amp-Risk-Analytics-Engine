@@ -1,0 +1,2 @@
+# Institutional-Quantitative-Backtesting-amp-Risk-Analytics-Engine
+In this programme I will be taking stock market and historic data and applying strategies to that data. Then mathematically calculating whether using the strategy would have resulted in us making money or losing money. I will also factor in the risk taken to get the stated results and all of this data will be presented on an interactive dashboard
