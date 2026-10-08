@@ -1,0 +1,16 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Local data cache (keeps downloaded market data off GitHub)
+data/*.csv
+
+# Virtual environments
+venv/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+
+#Prevents downloaded market data and temporary Python files from bloating your GitHub commit history. As there will a large ammount of data files, it is recommended to use a .gitignore file to exclude them from being tracked by Git. This will help keep your repository clean and focused on the code itself, rather than large data files loading them onto github won't be good for the account it self
