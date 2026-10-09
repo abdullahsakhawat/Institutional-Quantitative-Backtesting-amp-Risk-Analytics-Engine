@@ -4,7 +4,7 @@ In this programme I will be taking stock market and historic data and applying s
 
 **Day 1: Environment Architecture & Data Ingestion Engine**
 * Configured local workspace and locked environment dependencies (`requirements.txt`).
-* Implemented `.gitignore` to prevent massive CSV data caches from bloating the production repository.
+* While creating this project, I will source a lot of publicly available data to process. This `.gitignore` file contains code that will ensure the files containing data aren't uploaded to this GitHub repository; this keeps the repository clean and professional. The files are ignored based on file type and location, which includes `.csv` files in the `data/` folder and `.pyc` files throughout the whole program. Finally, `.vscode/` and `.idea/` ignore any non-useful files that are created by the IDE itself.
 * Engineered `src/data_loader.py` using object-oriented Python.
 * Built `MarketDataLoader` to automatically fetch historical market data via `yfinance`, sanitize missing price gaps, and cache the datasets locally for high-speed retrieval.
 * Implemented quantitative transformations, computing time-additive logarithmic returns and a robust technical indicator suite (Moving Averages, RSI, Bollinger Bands).
